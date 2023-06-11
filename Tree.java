@@ -26,15 +26,15 @@ public class Tree {
 
     // Creating method for growing.
     public void grow() {
-        this.feetTall = this.feetTall + 5;
+        this.feetTall = this.feetTall + 7;
         this.numLeaves = this.numLeaves + 1000;
         this.age = age + 1;
     }
 
     // Creating method for slowing growing.
     public void growSlow() {
-        this.feetTall = this.feetTall + 3;
-        this.numLeaves = this.numLeaves + 700;
+        this.feetTall = this.feetTall + 5;
+        this.numLeaves = this.numLeaves + 500;
     }
 
     // Creating method for specific growing.

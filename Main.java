@@ -16,7 +16,7 @@
 public class Main {
     // Create tree instances.
     public static void main(String[] args) {
-        final Tree treeOne = new Tree(24500, 85,
+        final Tree treeOne = new Tree(24000, 70,
                 "Weeping Willow", 20);
 
         // Display tree type using methods.
@@ -44,7 +44,7 @@ public class Main {
 
         // Call method & display.
         treeOne.loseLeaves();
-        System.out.print("Oh no! Tree now has " + treeOne.numLeaves);
-        System.out.println(" leaves.");
+        System.out.print("This tree now has " + treeOne.numLeaves);
+        System.out.println(" leaves, I guess fall is here.");
     }
 }
